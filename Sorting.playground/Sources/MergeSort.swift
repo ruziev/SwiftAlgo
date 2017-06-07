@@ -1,13 +1,3 @@
-//
-//  MergeSort.swift
-//  SwiftAlgo
-//
-//  Created by Ruziev on 6/7/17.
-//  Copyright © 2017 Ruziev. All rights reserved.
-//
-
-import Foundation
-
 public func mergeSort<T: Comparable>(_ array: [T], by comparator: (T,T)->Bool = {$0 < $1}) -> [T] {
     if array.count == 1 {
         return array
