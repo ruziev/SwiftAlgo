@@ -2,3 +2,5 @@
 
 binPow(of: 6, to: 4)
 binPow(of: 2, to: 32)
+
+eratosthenesSieve(upTo: 100)

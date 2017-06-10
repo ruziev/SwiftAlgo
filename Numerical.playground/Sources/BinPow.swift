@@ -4,7 +4,6 @@ public func binPow(of number: Int, to power: Int) -> Int {
     var power = power
     var result = 1
     while power > 0 {
-        print(power, result, number)
         if power & 1 == 1 {
             result *= number
         }
